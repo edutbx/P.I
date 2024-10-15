@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.containerFilho {
+    background-color: white;
+    display: flex;
+    border: solid black 1px;
+    border-radius: 100px;
+    width: 75%;
+    height: 550px;
+    margin-top: 30px;
+}
+
+.esq {
+    width: 40%;
+    background-color: #38B6FF;
+    border-top-left-radius:inherit;
+    border-bottom-left-radius:inherit;
+}
+
+.dir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    height: 300px;
+    padding: 40px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+
+.botao {
+    width: 300px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 300px;
+    font-size: 15pt;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #38B6FF;
+}
+
+.letra{
+    font-size: 17pt;
+}
