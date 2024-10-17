@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 22pt;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.dir{
+    background-color: #38b6ff;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.esq{
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.botao, .botao2{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #38B6FF;
+}
+
+section{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p{
+    padding: 10px;
+}
+
+.imagem{
+    width: 500px;
+    margin: 30px;
+}
+
+.formMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divForm{
+    width: 400px;
+    height: 500px;
+    padding: 25px;
+    display: block;
+}
+
+.divForm2{
+    width: 400px;
+    height: 500px;
+    display: block;
+}
+
+input{
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #38B6FF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
