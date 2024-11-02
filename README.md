@@ -1,2 +1,1 @@
-# P.I
-Projeto integrador da faculdade
+# Projeto-Integrador - Saúde++
